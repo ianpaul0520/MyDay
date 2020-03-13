@@ -1,43 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!-- Bulma CSS CDN -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+    />
     <!--Using Font awesome icon -->
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    
-</head>
-<body>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+  </head>
+  <body>
     <section class="section main-section">
-        <div class="columns">
-            <div class="column has-text-centered">
-                <p class="is-size-2-fullhd is-size-3 has-color-white">"Post your positive Day "</p>
-            </div>
+      <div class="columns">
+        <div class="column has-text-centered">
+          <p class="is-size-2-fullhd is-size-3 has-color-white">
+            "Post your positive Day "
+          </p>
         </div>
+      </div>
     </section>
 
-        
-    <section class="section is-medium  has-background-white is-centered">
-        <div class="sec2 columns is-centered ">
-            <div class="column is-5">
-                <div class="field has-addons">
-                    <span class="control">
-                        <input id="answerbox" class="input control is-primary is-medium" type="text" placeholder="Subject of the Day.">
-                    </span>
-                    <span class="control">
-                        <button id="submitbutton" class="button control is-medium is-primary is-outlined">Done</button>
-                    </span>
-                </div>
-            </div>
+    <!-- FORM SECTION -->
+    <section class="section is-medium  has-background-white is-centered"> 
+      <div class="sec2 columns is-centered ">
+        <div class="column is-half">
+          <h3 class="label is-2">Enter Your Subject</h3>
+          <div class="field has-addons">
+            <span class="control is-expanded">
+              <input
+                id="answerbox"
+                class="input is-info is-medium"
+                type="text"
+                placeholder="Subject of the Day."
+              />
+            </span>
+            <span class="control">
+              <button
+                id="submitbutton"
+                class="button is-medium is-info is-outlined"
+              >
+                OK
+              </button>
+            </span>
+          </div>
         </div>
+      </div>
     </section>
 
     <script src="main.js"></script>
     <script src="exec.js"></script>
-
-</body>
+  </body>
 </html>
