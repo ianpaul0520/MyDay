@@ -1,19 +1,13 @@
-// let getTheMidName = function() {
-//     return 
-// }
+const getNumber = 0;
+const specifiedValue = 140;
+let aDigit = Math.floor(Math.random() * Math.floor(20));
+console.log(aDigit);
+if (aDigit > specifiedValue) {
+}
 
-// function callMe(fn) {
-
-// }
-// callMe(solid)
-
-function test(n) {
-    if(n > 2) {
-        test(n-1);
-        console.log('a');
-        console.log('b,');
-        if (n == 100) {return}
-    }
-    
-} 
-    test(5);
+function tooHigh(n) {
+  return n / 2;
+}
+function tooLow(n) {
+  return n * 2;
+}

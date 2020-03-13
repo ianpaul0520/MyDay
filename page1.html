@@ -16,39 +16,80 @@
       src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
     ></script>
   </head>
+
   <body>
-    <section class="section main-section">
+    <nav class="section is-small columns is-vcentered">
+      <div class="column is-one-thirds has-background-grey">
+        <!-- Login Section -->
+        <div class="field has-addons">
+          <div class="control">
+            <input
+              class="input is-small is-info"
+              type="text"
+              placeholder="Username"
+              required
+            />
+          </div>
+          <div class="control">
+            <input
+              class="input is-small is-info"
+              type="password"
+              placeholder="Password"
+            />
+          </div>
+          <div class="control">
+            <button class="button is-info is-small">Login</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section id="main-section" class="section is-medium main-section">
       <div class="columns">
-        <div class="column has-text-centered">
+        <div class="column has-text-rigth">
           <p class="is-size-2-fullhd is-size-3 has-color-white">
-            "Post your positive Day "
+            Express your day
           </p>
         </div>
       </div>
     </section>
 
     <!-- FORM SECTION -->
-    <section class="section is-medium  has-background-white is-centered"> 
-      <div class="sec2 columns is-centered ">
+    <section class="section is-medium  has-background-white is-centered">
+      <div class="columns is-centered ">
         <div class="column is-half">
-          <h3 class="label is-2">Enter Your Subject</h3>
+          <h3 class="label is-text-2">Express Your Topic</h3>
           <div class="field has-addons">
             <span class="control is-expanded">
               <input
                 id="answerbox"
-                class="input is-info is-medium"
+                class="input "
                 type="text"
                 placeholder="Subject of the Day."
               />
             </span>
             <span class="control">
-              <button
-                id="submitbutton"
-                class="button is-medium is-info is-outlined"
-              >
-                OK
+              <button id="submitbutton" class="button is-info is-outlined">
+                <span>Submit</span>
+                <span class="icon is-small">
+                  <i class="fas fa-arrow-right"></i>
+                </span>
               </button>
             </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <!--Menu Controls -->
+          <div class="field has-addons">
+            <button class="button is-primary is-outlined">Button 1</button>
+            <button class="button is-primary is-outlined">Button 1</button>
+            <button class="button is-primary is-outlined">Button 1</button>
+          </div>
+          <!-- Text Area -->
+          <div class="">
+            <form action=""></form>
           </div>
         </div>
       </div>
