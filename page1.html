@@ -18,9 +18,12 @@
   </head>
 
   <body>
-    <nav class="section is-small columns is-vcentered">
-      <div class="column is-one-thirds has-background-grey">
-        <!-- Login Section -->
+    <nav class="level">
+      <div class="level-left">
+        <div class="level-item">
+          <p>Hello!</p>
+        </div>
+        <!-- Login Form RIGHT SIDE -->
         <div class="field has-addons">
           <div class="control">
             <input
@@ -38,15 +41,18 @@
             />
           </div>
           <div class="control">
-            <button class="button is-info is-small">Login</button>
+            <button id="login-button" class="button is-info is-small">
+              Login
+            </button>
           </div>
         </div>
       </div>
     </nav>
+
     <section id="main-section" class="section is-medium main-section">
       <div class="columns">
         <div class="column has-text-rigth">
-          <p class="is-size-2-fullhd is-size-3 has-color-white">
+          <p id="display" class="is-size-2-fullhd is-size-3 has-color-white">
             Express your day
           </p>
         </div>
