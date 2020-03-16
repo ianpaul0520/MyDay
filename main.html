@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bulma CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+    />
+    <!--Using Font awesome icon -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+  </head>
+
+  <body>
+    <nav class="nav level">
+      <div class="level-right">
+        <div class="level-item">
+          <p>Login</p>
+
+          <!-- Login Form RIGHT SIDE -->
+          <div class="field has-addons">
+            <div class="control">
+              <input
+                class="input is-small is-info"
+                type="text"
+                placeholder="Username"
+                required
+              />
+            </div>
+            <div class="control">
+              <input
+                class="input is-small is-info"
+                type="password"
+                placeholder="Password"
+              />
+            </div>
+            <div class="control">
+              <button id="login-button" class="button is-info is-small">
+                Login
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="main-section" class="section is-medium main-section">
+      <div class="columns">
+        <div class="column has-text-rigth">
+          <p id="display" class="is-size-2-fullhd is-size-3 has-color-white">
+            Express your day
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORM SECTION -->
+    <section class="section is-medium  has-background-white is-centered">
+      <div class="columns is-centered ">
+        <div class="column is-half">
+          <h3 class="label is-text-2">Express Your Topic</h3>
+          <div class="field has-addons">
+            <span class="control is-expanded">
+              <input
+                id="answerbox"
+                class="input "
+                type="text"
+                placeholder="Subject of the Day."
+              />
+            </span>
+            <span class="control">
+              <button id="submitbutton" class="button is-info is-outlined">
+                <span>Submit</span>
+                <span class="icon is-small">
+                  <i class="fas fa-arrow-right"></i>
+                </span>
+              </button>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <!--Menu Controls -->
+          <div class="field has-addons">
+            <button class="button is-primary is-outlined">Button 1</button>
+            <button class="button is-primary is-outlined">Button 1</button>
+            <button class="button is-primary is-outlined">Button 1</button>
+          </div>
+          <!-- Text Area -->
+          <div class="">
+            <form action=""></form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+    <script src="exec.js"></script>
+  </body>
+</html>
